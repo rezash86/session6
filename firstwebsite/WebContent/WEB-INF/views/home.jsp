@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>This is my first web site</title>
+<title>My home page</title>
 </head>
 <body>
+	<div>${helloMsg} <span>${welcomeMsg}</span></div>
 	
-	${mymessage}
+	<div>${student.firstName}</div>
 </body>
 </html>
